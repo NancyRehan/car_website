@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تفاصيل السيارة</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/details.css">
+
+</head>
+
+<body>
+
+<!-- =====================================================
+     NAVBAR
+     ===================================================== -->
+
+<header>
+
+    <nav>
+
+        <div class="container">
+
+            <div class="nav-father">
+
+                <!-- Logo -->
+                <a href="#" class="logo">
+                    <img src="images/brand.png" alt="Auto Store">
+                </a>
+
+                <!-- Links -->
+                <ul class="nav-links">
+
+                 
+    <li><a href="index.html">الرئيسية</a></li>
+
+<li><a href="index.html">السيارات</a></li>
+
+    <li><a href="index.html#brands">الماركات</a></li>
+
+    <li><a href="index.html#about">من نحن</a></li>
+
+    <li><a href="index.html#contact">تواصل معنا</a></li>
+
+                </ul>
+
+                <!-- Icons -->
+      <div class="icons">
+
+    <i class="fa fa-search" id="searchIcon"></i>
+
+    <div class="heart" id="heartIcon">
+        <i class="fa fa-heart-o"></i>
+        <span id="heartCount">0</span>
+    </div>
+
+    <i class="fas fa-user" id="userIcon"></i>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- =====================================================
+     CAR DETAILS
+     ===================================================== -->
+
+<section class="car-details">
+
+    <div class="container">
+
+        <!-- Gallery -->
+
+        <div class="car-gallery">
+
+            <div class="main-image">
+
+                <img
+                    id="mainCarImage"
+                    src="images/cars/car4.jpg"
+                    alt="Mercedes C300"
+                >
+
+            </div>
+
+
+            <!-- Small Images -->
+
+            <div class="small-images">
+
+                <img
+                    src="images/cars/car4.jpg"
+                    alt=""
+                >
+
+                <img
+                    src="images/cars/car3.jpg"
+                    alt=""
+                >
+
+                <img
+                    src="images/cars/car4.jpg"
+                    alt=""
+                >
+
+                <img
+                    src="images/cars/car3.jpg"
+                    alt=""
+                >
+
+            </div>
+
+        </div>
+
+
+        <!-- Car Information -->
+
+        <div class="car-content">
+
+            <h1 id="carName">
+                Mercedes C300
+            </h1>
+
+            <span class="price" id="carPrice">
+                $48,000
+            </span>
+
+            <p class="description" id="carDescription">
+
+                سيارة فاخرة تجمع بين الأداء القوي والتصميم العصري
+                مع أحدث تقنيات الراحة والأمان لتمنحك تجربة قيادة
+                استثنائية.
+
+            </p>
+
+
+            <!-- Top Specifications -->
+
+            <div class="specs">
+
+                <div class="spec">
+
+                    <i class="fa-solid fa-calendar"></i>
+
+                    <span id="carYear">
+                        2024
+                    </span>
+
+                </div>
+
+
+                <div class="spec">
+
+                    <i class="fa-solid fa-gas-pump"></i>
+
+                    <span id="carFuel">
+                        بنزين
+                    </span>
+
+                </div>
+
+
+                <div class="spec">
+
+                    <i class="fa-solid fa-gears"></i>
+
+                    <span id="carTransmission">
+                        أوتوماتيك
+                    </span>
+
+                </div>
+
+
+                <div class="spec">
+
+                    <i class="fa-solid fa-road"></i>
+
+                    <span id="carMileage">
+                        0 KM
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- Booking Button -->
+
+            <a
+                href="#"
+                class="btn"
+                id="bookingBtn"
+            >
+                احجز الآن
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CAR SPECIFICATIONS
+     ===================================================== -->
+
+<section class="car-specs">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>
+                المواصفات
+            </span>
+
+            <h2>
+                تفاصيل السيارة
+            </h2>
+
+        </div>
+
+
+        <div class="spec-table">
+
+
+            <div class="item">
+
+                <h4>
+                    المحرك
+                </h4>
+
+                <p id="carEngine">
+                    2.0 Turbo
+                </p>
+
+            </div>
+
+
+            <div class="item">
+
+                <h4>
+                    القوة
+                </h4>
+
+                <p id="carPower">
+                    255 حصان
+                </p>
+
+            </div>
+
+
+            <div class="item">
+
+                <h4>
+                    ناقل الحركة
+                </h4>
+
+                <p id="carGearbox">
+                    9 سرعات أوتوماتيك
+                </p>
+
+            </div>
+
+
+            <div class="item">
+
+                <h4>
+                    الدفع
+                </h4>
+
+                <p id="carDrive">
+                    دفع خلفي
+                </p>
+
+            </div>
+
+
+            <div class="item">
+
+                <h4>
+                    اللون
+                </h4>
+
+                <p id="carColor">
+                    أسود
+                </p>
+
+            </div>
+
+
+            <div class="item">
+
+                <h4>
+                    المقاعد
+                </h4>
+
+                <p id="carSeats">
+                    5 مقاعد
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SIMILAR CARS
+     ===================================================== -->
+
+<section class="similar-cars">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>
+                اقتراحات
+            </span>
+
+            <h2>
+                سيارات مشابهة
+            </h2>
+
+        </div>
+
+
+        <div class="cars-container">
+
+
+            <div class="car-card">
+
+                <img
+                    src="images/cars/car3.jpg"
+                    alt=""
+                >
+
+                <div class="car-info">
+
+                    <h3>
+                        BMW M4 Competition
+                    </h3>
+
+                    <p>
+                        موديل 2024
+                    </p>
+
+                    <div class="price">
+                        $85,000
+                    </div>
+
+                    <a href="#">
+                        عرض التفاصيل
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="car-card">
+
+                <img
+                    src="images/cars/car4.jpg"
+                    alt=""
+                >
+
+                <div class="car-info">
+
+                    <h3>
+                        Mercedes AMG GT
+                    </h3>
+
+                    <p>
+                        موديل 2024
+                    </p>
+
+                    <div class="price">
+                        $110,000
+                    </div>
+
+                    <a href="#">
+                        عرض التفاصيل
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="car-card">
+
+                <img
+                    src="images/cars/car3.jpg"
+                    alt=""
+                >
+
+                <div class="car-info">
+
+                    <h3>
+                        Audi RS5
+                    </h3>
+
+                    <p>
+                        موديل 2024
+                    </p>
+
+                    <div class="price">
+                        $75,000
+                    </div>
+
+                    <a href="#">
+                        عرض التفاصيل
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BOOKING MODAL
+     ===================================================== -->
+
+<div class="booking-overlay" id="bookingOverlay">
+
+    <div class="booking-box">
+
+        <!-- Close -->
+
+        <button type="button"
+             class="close-booking"
+            id="closeBooking"
+        >
+            &times;
+        </button>
+        <h2>
+            حجز السيارة
+        </h2>
+
+        <p>
+            املأ البيانات التالية وسنتواصل معك لتأكيد الحجز.
+        </p>
+
+
+        <!-- Form -->
+
+        <form id="bookingForm">
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="الاسم الكامل"
+                required
+            >
+
+
+            <input
+                type="tel"
+                id="customerPhone"
+                placeholder="رقم الهاتف"
+                required
+            >
+
+
+            <input
+                type="email"
+                id="customerEmail"
+                placeholder="البريد الإلكتروني"
+                required
+            >
+
+
+            <button
+                type="submit"
+                class="booking-submit"
+            >
+                تأكيد الحجز
+            </button>
+
+        </form>
+
+
+        <!-- Success -->
+
+        <div
+            class="booking-success"
+            id="bookingSuccess"
+        >
+
+            <h3>
+                تم إرسال طلب الحجز! ✅
+            </h3>
+
+            <p>
+                شكرًا لك، سنتواصل معك قريبًا لتأكيد الحجز.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-box">
+
+            <h2 class="logo">
+                AUTO <span>STORE</span>
+            </h2>
+
+            <p>
+                نقدم أفضل السيارات الجديدة والمستعملة
+                بأفضل الأسعار مع ضمان الجودة وخدمة عملاء
+                مميزة على مدار الساعة.
+            </p>
+
+            <div class="social">
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h3>
+                روابط سريعة
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">
+                        الرئيسية
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        السيارات
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        الماركات
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        من نحن
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        تواصل معنا
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h3>
+                الفئات
+            </h3>
+
+            <ul>
+
+                <li>
+                    <a href="#">
+                        سيارات سيدان
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        SUV
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        سيارات رياضية
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        سيارات كهربائية
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="footer-box">
+
+            <h3>
+                تواصل معنا
+            </h3>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                عمان، الأردن
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +962 79 123 4567
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                info@autostore.com
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        © 2026 Auto Store | جميع الحقوق محفوظة
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+     ===================================================== -->
+
+<!-- jQuery مرة واحدة فقط -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- تأثيرات الموقع -->
+<script src="js/jquery-effects.js"></script>
+
+<!-- JavaScript الخاص بالصفحة -->
+<script src="js/details.js"></script>
+
+<div class="search-box" id="searchBox">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="ابحث عن سيارة..."
+    >
+</div>
+
+<!-- نافذة تسجيل الدخول -->
+
+<div class="login-overlay" id="loginOverlay">
+
+    <div class="login-box">
+
+        <button class="close-login" id="closeLogin">
+            &times;
+        </button>
+
+        <h2>تسجيل الدخول</h2>
+
+        <p>سجل دخولك إلى حسابك</p>
+
+        <form id="loginForm">
+
+            <input
+                type="email"
+                placeholder="البريد الإلكتروني"
+                required
+            >
+
+            <input
+                type="password"
+                placeholder="كلمة المرور"
+                required
+            >
+
+            <button type="submit">
+                تسجيل الدخول
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
